@@ -9,7 +9,7 @@
 "use strict";
 
 module.exports = function( grunt ) {
-	var QUnit = require( "qunitjs" ).QUnit,
+	var QUnit = require( "qunit" ),
 		path = require( "path" ),
 		chalk = require( "chalk" ),
 		async = require( "async" ),

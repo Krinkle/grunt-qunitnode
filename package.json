@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/JamesMGreene/grunt-qunitnode",
   "peerDependencies": {
-    "qunitjs": "^1.19.0"
+    "qunit": "^2.4.1"
   },
   "dependencies": {
     "async": "1.5.0",
@@ -37,9 +37,10 @@
   },
   "devDependencies": {
     "difflet": "0.2.6",
-    "grunt": "0.4.5",
+    "grunt-cli": "^1.3.2",
+    "grunt": "^0.4.5",
     "grunt-contrib-jshint": "0.11.3",
-    "qunitjs": "^1.20.0"
+    "qunit": "^2.11.1"
   },
   "keywords": [
     "QUnit",
